@@ -1,11 +1,11 @@
-# Read me
+# Vite-Bootstrap5-Quickstart
 
-A minimalistic vite-starter-template with customized bootstrap imports.
+A minimal starter template with vite and Bootstrap 5. Uses customized Bootstrap imports.
 
 ## Getting started
-Run `npm i` to install dependencies.
-Run `npm run dev` to run dev server.
-Start coding.
+* Run `npm i` to install dependencies.
+* Run `npm run dev` to run dev server.
+* Start coding.
 
 ## Useful information
 * Currently, we are using sass v1.32 for not being annoyed by the deprecation warnings regarding the division handling by Bootstrap
