@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Vite/Bootstrap Starter App</title>
+</head>
+<body>
+<div id="app">
+    <section class="py-5 text-center container">
+        <div class="row py-lg-5">
+            <div class="col-lg-6 col-md-8 mx-auto">
+                <h1 class="fw-light">Vite Example</h1>
+                <p class="lead text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto aut blanditiis cupiditate dolorum eveniet expedita odio omnis qui quisquam ut!</p>
+                <p>
+                    <a href="#" class="btn btn-primary my-2">Main call to action</a>
+                    <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="py-5 text-center container">
+        <div class="row py-lg-5">
+            <div class="col-lg-6 col-md-8 mx-auto">
+                <h2 class="fw-light">A Bootstrap JavaScript Component</h2>
+                <p>Just a simple accordion to show that the bootstrap js is also working.</p>
+                <div class="accordion accordion-acc" id="testAccordion">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="acc-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#acc-collapseOne" aria-expanded="false"
+                                    aria-controls="acc-collapseOne">
+                                First Title
+                            </button>
+                        </h2>
+                        <div id="acc-collapseOne" class="accordion-collapse collapse"
+                             aria-labelledby="acc-headingOne" data-bs-parent="#testAccordion">
+                            <div class="accordion-body">Accusamus architecto blanditiis corporis cupiditate delectus dolore enim eos, iusto labore officiis quasi saepe? Consectetur doloribus dolorum quas quia vel.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="acc-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#acc-collapseTwo" aria-expanded="false"
+                                    aria-controls="acc-collapseTwo">
+                                Second Title
+                            </button>
+                        </h2>
+                        <div id="acc-collapseTwo" class="accordion-collapse collapse"
+                             aria-labelledby="acc-headingTwo" data-bs-parent="#testAccordion">
+                            <div class="accordion-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem error, in libero minima molestiae quaerat quas quis similique voluptatibus!</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="acc-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#acc-collapseThree" aria-expanded="false" aria-controls="acc-collapseThree">
+                                Third Title
+                            </button>
+                        </h2>
+                        <div id="acc-collapseThree" class="accordion-collapse collapse" aria-labelledby="acc-headingThree" data-bs-parent="#testAccordion">
+                            <div class="accordion-body">Aliquam animi atque, dolor fugit hic inventore nemo, non pariatur praesentium quibusdam quod sint sunt velit voluptatibus..</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>
+<script type="module" src="/main.js"></script>
+</body>
+</html>

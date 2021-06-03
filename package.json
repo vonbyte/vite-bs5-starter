@@ -1,0 +1,16 @@
+{
+  "version": "0.9.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "sass": "1.32.*",
+    "vite": "^2.3.5"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.9.2",
+    "bootstrap": "^5.0.1"
+  }
+}

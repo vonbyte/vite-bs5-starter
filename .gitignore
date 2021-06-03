@@ -1,0 +1,10 @@
+node_modules
+
+/.idea
+.DS_Store
+*.local
+
+package-lock.json
+
+dist
+dist-ssr

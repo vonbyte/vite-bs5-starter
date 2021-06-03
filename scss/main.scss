@@ -1,0 +1,12 @@
+// Add yout own variables for overriding the default Bootstrap ones
+@import "overrides";
+
+// If you need special functions in your variables-file, the regarding parts of the next file must be importet BEFORE the variables file
+@import "bootstrap-required";
+@import "bootstrap-custom";
+@import "../node_modules/bootstrap/scss/helpers";
+@import "../node_modules/bootstrap/scss/utilities/api";
+
+
+// Your own components, elements, additional variables, mixins, functions
+
