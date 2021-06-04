@@ -1,5 +1,11 @@
 # Changelog
 
+### v0.9.3 - 2021-06-04: Small fixes
+* Fix wrong variables
+
+### v0.9.2 - 2021-06-03: Small fixes
+* Adjust version
+* Adjust Readme
 
 ### v0.9.1 - 2021-06-03: Add Information
 * Add readme file
